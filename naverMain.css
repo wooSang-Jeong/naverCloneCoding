@@ -41,7 +41,7 @@ fieldset {
 }
 
 button {
-    background-color: rgb(106, 252, 81);
+    background-color: rgb(41, 182, 17);
     border : none;
     width: 49px;
     height: 49px;
@@ -60,3 +60,43 @@ button {
     background-size: 420px 390px;
 
 }
+
+.nav_item {
+    display: inline-block;
+    margin-left : 20px;
+}
+
+#header-nav {
+    border-top  : 1px solid rgb(201, 201, 201);
+    border-bottom:1px solid rgb(201, 201, 201);
+    margin-top: 50px;
+}
+.nav-first {
+    text-decoration: none;
+    color : rgb(41, 182, 17);
+    font-weight: bold;
+}
+
+
+.nav {
+    text-decoration: none;
+    color : black;
+    font-weight: bold;
+}
+
+
+
+.fa-envelope-open-text {
+    color : rgb(41, 182, 17);
+}
+
+#view-more {
+    font-size: 13px;
+}
+
+.fa-sort-down {
+    display: inline-block;
+    margin-left: 5px;
+    color:gray
+}
+
