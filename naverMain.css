@@ -9,13 +9,16 @@
      outline: none;
      display: inline-block;
      width: 700px;
+     position: relative;
+     top : 4px;
+     
  }
  
- heading  nav div {
+ header nav div {
     text-align: right;
     font-size: small;
 }
-heading  nav div a {
+header nav div a {
     text-decoration: none;
 }
 
@@ -23,6 +26,12 @@ heading  nav div a {
     margin: -155px  0px 0px 0px;
     width : 400px;
     height: 400px;
+    vertical-align: middle;
+    position: relative;
+    top : -0.5px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+   
 }
 
 #logo-crop-size {
@@ -38,9 +47,11 @@ fieldset {
     width: 521px;
     height: 49px;
     box-sizing: border-box;
+    position: relative;
+    bottom: -5px
 }
 
-button {
+#search-button {
     background-color: rgb(41, 182, 17);
     border : none;
     width: 49px;
@@ -104,3 +115,70 @@ button {
     margin-right: 7px;
 }
 
+#section-ad {
+    margin-top:20px;
+    width:750px;
+    height:135px;  
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#section-ad-img{
+    width:750px;
+    height:135px;
+}
+
+#login-div{
+    margin-left:30px;
+    margin-top:20px;
+    padding: 16px 16px 12px 17px;
+    background-color: #f7f9fa;
+    border: 1px solid #dae1e6;
+    display: inline-block;    
+    box-sizing: border-box;
+    width: 350px;
+    height: 135px;
+    display: inline-block;
+    vertical-align: middle;
+    position : relative;
+}
+
+#login-div p{
+    font-size: small;
+    color :rgb(129, 129, 129);
+    right: 0;
+    position: relative;
+    bottom: 10px;
+}
+
+#login-button {
+    background-color: rgb(41, 182, 17);
+    border : none;
+    height: 48px;
+    width: 315px;
+    border-radius :4px;
+    bottom: 10px;
+    position: relative;
+}
+
+#login-text {
+    color : white;
+    font-weight: bold;
+    font-size: medium;
+    margin-right :5px;
+}
+#login-text2 {
+    color :white
+}
+
+.fa-user{
+    position: relative;
+    left: 100px;
+}
+
+#join-text{
+    position: relative;
+    left: 105px;
+    text-decoration: none;
+    color: inherit;
+}
