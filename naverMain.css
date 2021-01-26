@@ -30,7 +30,7 @@ header {
     height: 100%;
     margin: 0 auto;
     padding: 0 30px;
-    top:30px;    
+    top:46px;    
 }
 
 #heading {
@@ -42,12 +42,15 @@ header {
 header nav {   
     text-align: right;
     font-size: small;
-    text-decoration: none;
-    margin : 0;
+    width: 1105px;
+    position: absolute;
+    right : 88px;
 }
 
 header nav a{
     text-decoration: none;
+    color: inherit;
+    margin-left: 5px;
 }
 
 input#search-input{
@@ -121,6 +124,7 @@ fieldset {
     border-bottom:1px solid rgb(201, 201, 201);
     height: 50px;
     position: relative;
+    width: 1105px;
 }
 
 .list_nav {
