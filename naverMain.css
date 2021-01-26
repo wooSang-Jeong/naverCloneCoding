@@ -1,35 +1,64 @@
+body {
+    margin : 0;
+}
+
+#warp {
+    overflow: hidden;
+    min-width: 1190px;
+}
+
+#warp-width {
+    width : 1130px;
+    margin : 0 auto;
+}
+
 header {
-    width: 1230px;
+    position: relative;
+    width: 1130px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+#header-top{
+    position: relative;
     height: 160px;
 }
 
 #header-wrapper{
-    margin : 0 auto;
-    width: 1080px;
-    position : relative;
-    top : 50%;
-    left : 50% ;
-    transform  : translate(-50%, -50% );
+    position: relative;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+    top:30px;    
 }
 
+#heading {
+    position: relative;
+    height: 160px;
+
+}
+
+header nav {   
+    text-align: right;
+    font-size: small;
+    text-decoration: none;
+    margin : 0;
+}
+
+header nav a{
+    text-decoration: none;
+}
 
 input#search-input{
      border : none;
      outline: none;
      display: inline-block;
-     width: 700px;
+     width: 470px;
      position: relative;
      top : 4px;     
  }
 
-header nav div {
-    display: inline-block;
-    text-align: right;
-    font-size: small;
-}
-header nav div a {
-    text-decoration: none;
-}
 
 #cropped-logo {
     margin: -155px  0px 0px 0px;
@@ -52,9 +81,10 @@ header nav div a {
 }
 
 fieldset {
-    border-color: rgb(106, 252, 81);
-    width: 521px;
-    height: 49px;
+    display: inline-block;
+    border-color: rgb(41, 182, 17);
+    border-style: solid;
+    height: 55px;
     box-sizing: border-box;
     position: relative;
     bottom: -5px
@@ -62,18 +92,18 @@ fieldset {
 
 #search-button {
     background-color: rgb(41, 182, 17);
-    border : none;
-    width: 49px;
-    height: 49px;
+    border: none;
+    width: 52px;
+    height: 52px;
     position: absolute;
-    margin : -7.5px -35px;
-    
+    top: -0.5px;
+    right: -1px;   
 }
 
 #img-button {
     display: inline-block;
-    height: 21px;
-    width: 21px;
+    height: 23px;
+    width: 23px;
     background-image: url(./naver\ main\ img.png);
     background-position: -171px -367px;
     background-repeat: no-repeat;
@@ -89,8 +119,18 @@ fieldset {
 #header-nav {
     border-top  : 1px solid rgb(201, 201, 201);
     border-bottom:1px solid rgb(201, 201, 201);
-    margin-top : 20px;
+    height: 50px;
+    position: relative;
 }
+
+.list_nav {
+    display: inline-block;
+    padding : 0;
+    margin : 0 auto;
+    position: absolute;
+    top : 14px;
+}
+
 .nav-first {
     text-decoration: none;
     color : rgb(41, 182, 17);
@@ -190,4 +230,66 @@ a#join-text{
     left: 105px;
     text-decoration: none;
     color: inherit;
+}
+
+#ad_login-bottom{
+    box-sizing: border-box;
+    display: inline-block;
+    color : black;
+    font-weight: bold;
+    font-size: small;
+    position: relative;
+    padding: 12px 15px 11px 15px;
+    background-color: #f7f9fa;
+    border: 1px solid #dae1e6;
+    line-height: 24px;
+    width: 750px;
+    margin-top : 8px;
+    vertical-align: middle;
+}
+
+#ad-bottom {
+    margin-left : 310px;
+}
+
+#ad_login_bottom2{
+    display: inline-block;
+    background-color: #f7f9fa;
+    border: 1px solid #dae1e6;
+    padding: 12px 15px 11px 15px;
+    line-height: 24px;
+    vertical-align: middle;
+    margin-top : 8px;
+    width: 350px;
+    box-sizing: border-box;
+}
+
+ #ad_login_bottom2 > :nth-child(2) {
+        margin-left: 5px;
+         font-weight: bold;
+         font-size: small;
+}
+
+#ad_login_bottom2 > :nth-child(3){
+    margin-left: 5px;
+    color : red;
+    font-size: small;
+}
+
+#ad_login_bottom2 > :nth-child(4){
+    margin-left: 5px;
+    color : blue;
+    font-size: small;
+}
+
+#ad_login_bottom2 > :nth-child(5){
+    font-weight: bold;
+    color : black;
+    font-size: small;
+    margin-left: 120px;
+}
+
+.fa-snowflake{
+    margin-left: 10px;
+    color :rgba(99, 99, 99, 0.452);
 }
