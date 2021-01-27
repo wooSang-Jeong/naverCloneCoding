@@ -297,3 +297,58 @@ a#join-text{
     margin-left: 10px;
     color :rgba(99, 99, 99, 0.452);
 }
+
+section {
+    position: relative;
+}
+
+section > .group_title {
+    margin-top: 20px;
+}
+
+section > .group_title a{
+    text-decoration: none;
+    color : inherit;
+    font-weight: bold;
+    font-size: small;
+}
+
+section > .group_title :nth-child(2) {
+    color : gray;
+}
+
+section .fa-bars {
+    margin-left : 440px
+}
+
+.rollingboard_player {
+    position: absolute;
+    right: 24px;
+    top: 230px;
+}
+
+
+
+.thumb_box {
+    float: left;
+    width: 148px;
+    height: 65px;
+    text-align: center;
+    border : 1px solid #dae1e6
+}
+
+.tile_view{
+    margin-top : 10px;
+    width: 770px;
+    height: 260px;
+    display: inline-block;
+}
+
+
+.thumb_box  img {
+    width: 48.5px;
+    height: 20px;
+    position: relative;
+    top : 50%;
+    transform: translateY(-50%);
+}
