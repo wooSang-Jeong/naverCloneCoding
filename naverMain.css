@@ -59,7 +59,10 @@ input#search-input{
      display: inline-block;
      width: 470px;
      position: relative;
-     top : 4px;     
+     top : 8px;    
+     color : black;
+     font-weight: 700; 
+     font-size: 18px;
  }
 
 
