@@ -271,7 +271,7 @@ a#join-text{
     box-sizing: border-box;
 }
 
- #ad_login_bottom2 > :nth-child(2) {
+#ad_login_bottom2 > :nth-child(2) {
         margin-left: 5px;
          font-weight: bold;
          font-size: small;
@@ -344,7 +344,7 @@ section .fa-bars {
     margin-top : 10px;
     width: 770px;
     height: 260px;
-    display: inline-block;
+    float: left;
 }
 
 
@@ -354,4 +354,12 @@ section .fa-bars {
     position: relative;
     top : 50%;
     transform: translateY(-50%);
+}
+
+#shopcast {
+    display: inline-block;
+    position: relative;
+    position: relative;
+    top: 183px;
+    right: 12px;
 }
