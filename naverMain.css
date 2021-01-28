@@ -1,5 +1,6 @@
 body {
     margin : 0;
+    height: 3276px;
 }
 
 #warp {
@@ -359,7 +360,7 @@ section .fa-bars {
 #shopcast {
     display: inline-block;
     position: relative;
-    position: relative;
     top: 183px;
     right: 12px;
+    height: 1722px;
 }
