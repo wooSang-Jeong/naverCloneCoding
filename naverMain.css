@@ -132,11 +132,11 @@ fieldset {
 }
 
 .list_nav {
-    display: inline-block;
     padding : 0;
     margin : 0 auto;
     position: absolute;
     top : 14px;
+    float: left;
 }
 
 .nav-first {
@@ -318,7 +318,7 @@ section > .group_title a{
 }
 
 section > .group_title :nth-child(2) {
-    color : gray;
+    color :  #dae1e6
 }
 
 section .fa-bars {
@@ -363,4 +363,67 @@ section .fa-bars {
     top: 183px;
     right: 12px;
     height: 1722px;
+}
+
+.list_service {
+    float: left;
+}
+
+
+.service_data a {
+    color : inherit;
+    text-decoration: none;
+    font-size: small;
+    }
+
+.service_title {
+    color : inherit;    
+    text-decoration: none;
+    font-size: small;
+    margin-left : 20px;
+    font-weight: bold;
+}    
+
+#group_service {
+    height: 241px;
+    border-bottom: solid 1px #dae1e6;
+    position: relative;
+    top: 1px;
+    float: left;
+    display: none;
+    z-index: 1;
+    background-color: white;   
+    width: 1105px;
+}
+
+
+.list_service {
+    border-left : solid 1px  #dae1e6;
+    margin-left : 60px;
+    margin-bottom: 0px;
+}
+
+
+.list_service:first-child {
+    margin-left: 0;
+}
+
+section {
+    clear: both;
+}
+
+.service_data {
+    margin-left : 20px;
+}
+
+#view-more {
+    display: inline-block;
+}
+
+#view-more:hover #group_service{
+    display: block;
+}
+
+#view-more:hover #view-more {
+    display: none;
 }
