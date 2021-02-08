@@ -443,7 +443,7 @@ section {
 }
 
 #left-bodySection strong {
-    font-size : 13px
+    font-size : 12px;
 }
 
 #left-bodySection strong:nth-child(3) {
@@ -532,9 +532,9 @@ div.second-section a {
     display: inline-block;
     width: 364px;
     height: 322px;
-    position: relative;
-    top: -1451px;
-    right: 413px;
+    position: absolute;
+    top: 97px;
+    right: 47px;
 }
 
 
@@ -564,3 +564,42 @@ a.theme_info{
 #trip-plus {
     margin : 0;
 }
+
+.group_theme {
+    display: inline-block;
+}
+
+ul.list_theme li {
+    width: 750px;
+    
+}
+ul.list_theme li a {
+    float: left;
+}
+
+.main_topic_thumb, .main_topic_content {
+    display: inline-block;
+}
+
+.main_topic_company, .main_topic_title , .main_topic_context {
+    display: block;
+    overflow: hidden;
+    margin-top: 9px;
+    font-size: 13px;
+    line-height: 15px;
+    text-overflow: ellipsis;
+    position: relative;
+}
+#main-topic-under {
+    margin : 0 !important;
+}
+
+#main-topic-textAline{
+    position: relative;
+    top: -19px;
+    left: 8px;
+    width: 512px;
+    height: 100px;
+    display: inline-block;
+}
+
