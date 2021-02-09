@@ -590,8 +590,8 @@ ul.list_theme li a {
     text-overflow: ellipsis;
     position: relative;
 }
-#main-topic-under {
-    margin : 0 !important;
+.main-topic-under {
+    margin : 8px 8px 8px 0!important;
 }
 
 #main-topic-textAline{
@@ -601,5 +601,34 @@ ul.list_theme li a {
     width: 512px;
     height: 100px;
     display: inline-block;
+    margin : 0;
+}
+
+
+.group_topstory {
+    border-bottom:1px solid rgb(201, 201, 201);
+}
+
+#main-topic-underTwo{
+    border-top:1px solid rgb(201, 201, 201);
+    padding-top: 14px;
+}
+
+.main-topic-underTwo{
+    display: inline-block;
+    width: 232px;
+    height: 205px;
+    margin-right: 11px;
+}
+
+#upper-footer{
+    display: inline-block;
+    width: 750px;
+    margin:0 auto!important;
+    text-align: center;
+}
+
+#upper-footer p{
+    font-size: 9px;
 }
 
