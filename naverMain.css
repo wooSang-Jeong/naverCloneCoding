@@ -632,3 +632,35 @@ ul.list_theme li a {
     font-size: 9px;
 }
 
+footer{
+    position: relative;
+    bottom:2250px;
+    background-color: #fafbfc;
+    border-top: 1px solid #e4e8eb;
+}
+
+footer div{
+    display: inline-block;
+    line-height : 10%;
+    font-size : 12px;
+}
+
+footer > div:nth-child(2), footer > div:nth-child(3)  {
+    margin-left : 100px;
+}
+
+footer img {
+    vertical-align : bottom;
+}
+.main_public_content{
+    margin-left : 12px;
+}
+
+.notice_area{
+    padding-top :30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #e4e8eb;
+    border-bottom: 1px solid #e4e8eb;
+    width: 100%;
+    margin-top:10px;    
+}
